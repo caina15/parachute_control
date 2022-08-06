@@ -18,7 +18,6 @@ void setup() {
   myservo.attach(serv);
 }
 
-
 void loop() {
   buttonState = digitalRead(butt);
     if(Serial.available()>0){
